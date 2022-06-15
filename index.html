@@ -5,8 +5,8 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.min.css?_v=20220610175538">
-	<title>Auto-Online</title>
+	<link rel="stylesheet" href="css/style.min.css?_v=20220615133609">
+	<title>Главная</title>
 </head>
 
 <body>
@@ -64,7 +64,6 @@
 					</picture>
 				</div>
 				<div class="seven-days-learn_clouds">
-
 					<picture>
 						<source srcset="img/main/learn/CLOUDS_mobil.png" media="(max-width:991px)"><img
 							src="img/main/learn/CLOUDS.png" alt="clouds">
@@ -309,7 +308,48 @@
 						class="bootom-items__link" href="">Политика конфендициальности</a></div>
 			</div>
 		</footer>
-		<script src=" js/app.min.js?_v=20220610175538">
+		<!-- popup -->
+		<div class="popup" data-modal>
+
+			<div class="popup__content">
+				<button type="button" class="popup__button"></button>
+				<h2 class="popup__title">Регистрация на марафон</h2>
+				<h3 class="popup__sub-title">Дата начала марафона <strong>20 мая / 20:00</strong></h3>
+
+				<p class="popup__text">Укажи свои данные в полях ниже и получи доступ к <strong>бесплатному 7-ми
+						дневному</strong> марафону
+					от Autoonline</p>
+
+				<div class="popup__form form-popup">
+					<form action="#" class="form-popup">
+						<div class="form-popup__box-inp">
+							<label for="" class="form-popup__label">Ваше имя</label>
+							<input autocomplete="off" type="text" name="user_name" data-error="Ошибка"
+								placeholder="Введите ваше имя..." class="form-popup__input">
+						</div>
+						<div class="form-popup__box-inp">
+							<label for="" class="form-popup__label">Откуда вы?</label>
+							<input autocomplete="off" type="text" name="user_city" data-error="Ошибка"
+								placeholder="Введите город...." class="form-popup__input">
+						</div>
+						<div class="form-popup__box-inp">
+							<label for="" class="form-popup__label">Ваш телефон</label>
+							<input autocomplete="off" type="tel" name="user_tel" data-error="Ошибка" placeholder="+7 ..."
+								class="form-popup__input">
+						</div>
+						<div class="form-popup__box-inp">
+							<label for="" class="form-popup__label">Ваш e-mail</label>
+							<input autocomplete="off" type="email" name="user_email" data-error="Ошибка"
+								placeholder="email@mail.com" class="form-popup__input">
+						</div>
+						<button type="submit" class="form-popup__button button-form-popup"><span>Зарегистрироваться</spa>
+						</button>
+					</form>
+				</div>
+			</div>
+
+		</div>
+		<script src=" js/app.min.js?_v=20220615133609">
 		</script>
 	</div>
 </body>
